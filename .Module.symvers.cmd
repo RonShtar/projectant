@@ -1,0 +1,1 @@
+cmd_/home/ronshtar/idf/idf/Keylogger/Module.symvers := sed 's/\.ko$$/\.o/' /home/ronshtar/idf/idf/Keylogger/modules.order | scripts/mod/modpost -m -a  -o /home/ronshtar/idf/idf/Keylogger/Module.symvers -e -i Module.symvers   -T -
